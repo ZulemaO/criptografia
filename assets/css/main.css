@@ -1306,11 +1306,12 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("https://c4.wallpaperflare.com/wallpaper/164/701/172/toy-story-animated-movies-movies-clouds-wallpaper-preview.jpg");
-		background-repeat: repeat, no-repeat;
-		background-size: auto, 100% 100%;
+		background-image:url("https://c4.wallpaperflare.com/wallpaper/164/701/172/toy-story-animated-movies-movies-clouds-wallpaper-preview.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
 		background-attachment: fixed;
 		overflow-y: scroll;
+		height: 100vh;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {

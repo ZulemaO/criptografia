@@ -1,0 +1,16 @@
+body {
+    background-image:url("https://c4.wallpaperflare.com/wallpaper/164/701/172/toy-story-animated-movies-movies-clouds-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.button{
+    box-shadow: 4px 4px #1b48a0;
+    background-color:#1095d0; 
+    color:#ffffff;
+}
+.titulo1{
+    font-family: "Gill Sans";
+}
