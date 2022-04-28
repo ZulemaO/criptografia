@@ -4,7 +4,7 @@ const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 const mongoose = require('./db')
-let config = require('./config/enviroment')
+//let config = require('./config/enviroment')
 
 
 
@@ -12,7 +12,7 @@ let config = require('./config/enviroment')
 app.set('views', './views');
 
 // Se indica el motor del plantillas a utilizar
-app.set('view engine', 'pug');
+app.set('view engine', 'html');
 
 app.use('/', require('./routes/website'))
 
@@ -20,6 +20,6 @@ app.use('/public',express.static('public'));
 
 
 
-app.listen(config.port, () => {
-    console.log("The server started at port ", config.port);
+app.listen(3000, () => {
+    console.log("The server started at port ", 3000);
 });
